@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="306" height="547" viewBox="0 0 306 547">
+  <defs>
+    <style>
+      .cls-1, .cls-8 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: #2c363f;
+      }
+
+      .cls-2 {
+        font-size: 13px;
+      }
+
+      .cls-2, .cls-4 {
+        font-family: Muli-Regular, Muli;
+      }
+
+      .cls-3, .cls-4 {
+        font-size: 15px;
+      }
+
+      .cls-3 {
+        font-family: Muli-Bold, Muli;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        font-size: 111px;
+        font-family: Gastromond-Regular, Gastromond;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_65" data-name="Group 65" transform="translate(-909 -3733)">
+    <g id="Group_64" data-name="Group 64">
+      <g id="Rectangle_18" data-name="Rectangle 18" class="cls-1" transform="translate(909 3733)">
+        <rect class="cls-7" width="306" height="547" rx="12"/>
+        <rect class="cls-8" x="0.5" y="0.5" width="305" height="546" rx="11.5"/>
+      </g>
+      <g id="Group_58" data-name="Group 58" transform="translate(909 3755)">
+        <g id="Group_57" data-name="Group 57" transform="translate(5 3)">
+          <text id="Time" class="cls-2" transform="translate(40 70)"><tspan x="-14.716" y="0">Time</tspan></text>
+          <text id="_17:36" data-name="17:36" class="cls-3" transform="translate(45 51)"><tspan x="-19.882" y="0">17:36</tspan></text>
+        </g>
+        <text id="BPM" class="cls-2" transform="translate(143 73)"><tspan x="-14.177" y="0">BPM</tspan></text>
+        <text id="Miles" class="cls-4" transform="translate(153 270)"><tspan x="-17.737" y="0">Miles</tspan></text>
+        <text id="_132" data-name="132" class="cls-3" transform="translate(144 54)"><tspan x="-13.507" y="0">132</tspan></text>
+        <text id="_3.23" data-name="3.23" class="cls-5" transform="translate(153 213)"><tspan x="-113.664" y="0">3.23</tspan></text>
+        <g id="Group_56" data-name="Group 56" transform="translate(5 3)">
+          <text id="Avg._Pace" data-name="Avg. Pace" class="cls-2" transform="translate(242 70)"><tspan x="-29.939" y="0">Avg. Pace</tspan></text>
+          <text id="_8_01_" data-name="8’01”" class="cls-3" transform="translate(243 51)"><tspan x="-18.712" y="0">8’01”</tspan></text>
+        </g>
+        <path id="pause-solid" class="cls-6" d="M36.466,144.448H12.155A12.158,12.158,0,0,1,0,132.293V43.155A12.158,12.158,0,0,1,12.155,31h24.31A12.158,12.158,0,0,1,48.621,43.155v89.138A12.158,12.158,0,0,1,36.466,144.448Zm76.983-12.155V43.155A12.158,12.158,0,0,0,101.293,31H76.983A12.158,12.158,0,0,0,64.828,43.155v89.138a12.158,12.158,0,0,0,12.155,12.155h24.31A12.158,12.158,0,0,0,113.448,132.293Z" transform="translate(96.276 319.276)"/>
+      </g>
+    </g>
+  </g>
+</svg>

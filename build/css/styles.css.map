@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,KACE,SAAU,CAGZ,GACE,cAAe","file":"styles.css","sourcesContent":["body {\n  color: red;\n}\n\nh1 {\n  font-size: 4rem;\n}"]}
