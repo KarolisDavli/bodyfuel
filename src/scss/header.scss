@@ -1,0 +1,55 @@
+header {
+  height: 100vh;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4rem;
+}
+
+.nav-links {
+  display: flex;
+
+  li {
+    margin-left: 5rem;
+  }
+
+}
+
+// Hero
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80%;
+}
+
+.hero-article {
+  max-width: 500px;
+
+  p {
+    padding: 1rem 0 4rem;
+  }
+}
+
+// Extra
+
+.fa-leaf {
+  animation: pulse 2s infinite;
+  border-radius: 50%;
+  color: var(--green);
+  margin-right: .5rem;
+}
+
+// Extra - Pulsing animation
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(179, 233, 199, .7);
+  }
+
+  100% {
+    box-shadow: 0 0 0 15px rgba(179, 233, 199, 0);
+  }
+}

@@ -67,6 +67,5 @@ function watchTask() {
 // Default task 
 exports.default = series(
   parallel(scssTask, jsTask),
-  imgTask,
   watchTask
 );

@@ -1,7 +1,5 @@
-body {
-  color: red;
-}
-
-h1 {
-  font-size: 4rem;
-}
+@import "global";
+@import "header";
+@import "features";
+@import "video";
+@import "getourapp";

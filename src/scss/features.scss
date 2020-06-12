@@ -1,0 +1,15 @@
+// Features
+.features-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features-item {
+  text-align: center;
+  max-width: 260px;
+
+  .bold-p {
+    margin: 1.2rem;
+  }
+}

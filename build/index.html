@@ -1,18 +1,161 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+  <head>
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/00274e4333.js"
+      crossorigin="anonymous"
+    ></script>
 
-<head>
-  <meta charset="utf-8">
-  <title>My starting files</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Body Fuel</title>
 
-<body>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-  <h1>Sveikuciai visi</h1>
-  <p>This is my starting files. There are many like it, but this one is mine.</p>
-  <img src="img/coffee.jpeg" alt="coffe">
-</body>
-<script src="js/main.js"></script>
+  <body>
+    <header class="container">
+      <nav class="nav-bar">
+        <img src="img/logo.svg" alt="logo" />
+        <ul class="nav-links">
+          <li><a href="#">features</a></li>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#" class="btn-secondary-green btn">sign in</a></li>
+        </ul>
+      </nav>
 
+      <div class="hero">
+        <article class="hero-article">
+          <h1>Healthy fuel for your body</h1>
+          <p>
+            Vivamus eget aliquam dui. Integer eu arcu vel arcu suscipit ultrices
+            quis non mauris aenean scelerisque
+          </p>
+          <a href="#" class="btn btn-primary">Start free trial</a>
+        </article>
+        <img src="img/avocado.png" alt="" />
+      </div>
+
+      <div class="extra">
+        <a href="#">
+          <i class="fas fa-leaf"></i>
+          5 reasons to eat green
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section id="features" class="container">
+        <div class="features-grid">
+          <div class="features-item">
+            <i class="fas fa-map-marked-alt fa-2x"></i>
+            <p class="bold-p">Discover routes</p>
+            <p>
+              Sed vel maximus ante, quis mattis neque. Nullam dapibus erat sed
+            </p>
+          </div>
+          <div class="features-item">
+            <i class="fas fa-microphone fa-2x"></i>
+            <p class="bold-p">Voice control</p>
+            <p>
+              Donec dapibus mauris id odio ornare tempus. Duis sit amet
+              accumsan.
+            </p>
+          </div>
+          <div class="features-item">
+            <i class="fas fa-moon fa-2x"></i>
+            <p class="bold-p">Dark mode</p>
+            <p>
+              Nam et risus non lacus dignissim lacinia sit amet nec eros. Nulla
+              vel urna quis libero.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="video" class="container">
+        <div class="video">
+          <script
+            src="https://fast.wistia.com/embed/medias/r5hbavigve.jsonp"
+            async
+          ></script>
+          <script
+            src="https://fast.wistia.com/assets/external/E-v1.js"
+            async
+          ></script>
+          <div
+            class="wistia_responsive_padding"
+            style="padding: 56.25% 0 0 0; position: relative;"
+          >
+            <div
+              class="wistia_responsive_wrapper"
+              style="
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 100%;
+              "
+            >
+              <div
+                class="wistia_embed wistia_async_r5hbavigve videoFoam=true"
+                style="height: 100%; position: relative; width: 100%;"
+              >
+                <div
+                  class="wistia_swatch"
+                  style="
+                    height: 100%;
+                    left: 0;
+                    opacity: 0;
+                    overflow: hidden;
+                    position: absolute;
+                    top: 0;
+                    transition: opacity 200ms;
+                    width: 100%;
+                  "
+                >
+                  <img
+                    src="https://fast.wistia.com/embed/medias/r5hbavigve/swatch"
+                    style="
+                      filter: blur(5px);
+                      height: 100%;
+                      object-fit: contain;
+                      width: 100%;
+                    "
+                    alt=""
+                    aria-hidden="true"
+                    onload="this.parentNode.style.opacity=1;"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="play-button">
+            <i class="fas fa-play fa-2x"></i>
+          </div>
+        </div>
+      </section>
+
+      <section id="getOurApp" class="container">
+        <article class="capital-heading">
+          <p class="sub-heading purple-heading">Start your day with a boost</p>
+          <h2>Get our app</h2>
+          <p class="capital-p">
+            Proin ac quam et lectus vestibulum blandit. Nunc maximus nibh at
+            placerat tincidunt. Nam sem lacus, ornare non ante sed,
+          </p>
+          <div class="store">
+            <img src="img/app-store.svg" alt="" />
+            <img src="img/play-store.svg" alt="" />
+          </div>
+        </article>
+      </section>
+
+      <section id="advanced" class="container"></section>
+    </main>
+  </body>
 </html>
