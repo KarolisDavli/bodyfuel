@@ -1,0 +1,31 @@
+// Footer
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem 0 5rem;
+
+  .brand {
+    max-width: 330px;
+  }
+
+  .social-links {
+    margin-top: 2rem;
+
+    a {
+      margin-right: 1.5rem;
+    }
+  }
+
+  .footer-nav {
+    display: flex;
+  }
+
+  ul {
+    padding-left: 5rem;
+  }
+
+  li {
+    margin: 0.8rem 0;
+  }
+}

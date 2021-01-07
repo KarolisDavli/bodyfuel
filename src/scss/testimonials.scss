@@ -1,0 +1,21 @@
+// Carousel
+#testimonials {
+  margin-bottom: 8rem;
+}
+
+.gallery {
+  max-width: 420px;
+  margin: auto;
+  text-align: center;
+}
+
+.gallery-cell {
+  width: 420px;
+  height: 100px;
+  margin: 5rem;
+  counter-increment: gallery-cell;
+
+  p {
+    padding-top: 1rem;
+  }
+}

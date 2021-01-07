@@ -64,8 +64,12 @@ function watchTask() {
     parallel(scssTask, jsTask));
 }
 
+
 // Default task 
 exports.default = series(
   parallel(scssTask, jsTask),
   watchTask
 );
+
+// Stand alone tasks
+exports.imgTask = imgTask;

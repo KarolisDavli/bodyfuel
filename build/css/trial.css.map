@@ -1,0 +1,1 @@
+{"version":3,"sources":["trial.scss"],"names":[],"mappings":"AACA,cACE,kBAAmB","file":"trial.css","sourcesContent":["// Trial\n.row-center-x {\n  align-items: center;\n}"]}

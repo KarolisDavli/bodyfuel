@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="build/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="build/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="build/img/favicon-16x16.png">
     <!-- Font awesome -->
     <script
       src="https://kit.fontawesome.com/00274e4333.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Animate scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,6 +20,10 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
   </head>
 
   <body>
@@ -36,7 +47,9 @@
           </p>
           <a href="#" class="btn btn-primary">Start free trial</a>
         </article>
-        <img src="img/avocado.png" alt="" />
+        <div class="hero-image">
+          <img src="img/avocado.png" alt="" />
+        </div>
       </div>
 
       <div class="extra">
@@ -47,17 +60,20 @@
       </div>
     </header>
 
+    <div class="empty-space"></div>
+
     <main>
+      <!-- Features -->
       <section id="features" class="container">
         <div class="features-grid">
-          <div class="features-item">
+          <div data-aos="fade-right" class="features-item">
             <i class="fas fa-map-marked-alt fa-2x"></i>
             <p class="bold-p">Discover routes</p>
             <p>
               Sed vel maximus ante, quis mattis neque. Nullam dapibus erat sed
             </p>
           </div>
-          <div class="features-item">
+          <div data-aos="fade-down" class="features-item">
             <i class="fas fa-microphone fa-2x"></i>
             <p class="bold-p">Voice control</p>
             <p>
@@ -65,7 +81,7 @@
               accumsan.
             </p>
           </div>
-          <div class="features-item">
+          <div data-aos="fade-left" class="features-item">
             <i class="fas fa-moon fa-2x"></i>
             <p class="bold-p">Dark mode</p>
             <p>
@@ -76,7 +92,10 @@
         </div>
       </section>
 
-      <section id="video" class="container">
+      <div class="empty-space"></div>
+
+      <!-- Video -->
+      <section data-aos="fade-up" id="video" class="container">
         <div class="video">
           <script
             src="https://fast.wistia.com/embed/medias/r5hbavigve.jsonp"
@@ -140,8 +159,11 @@
         </div>
       </section>
 
-      <section id="getOurApp" class="container">
-        <article class="capital-heading">
+      <div class="empty-space"></div>
+
+      <!-- Getourapp -->
+      <section data-aos="fade-up" id="getOurApp" class="container">
+        <article class="capital-heading text-center element-center">
           <p class="sub-heading purple-heading">Start your day with a boost</p>
           <h2>Get our app</h2>
           <p class="capital-p">
@@ -155,7 +177,196 @@
         </article>
       </section>
 
-      <section id="advanced" class="container"></section>
+      <div class="empty-space"></div>
+
+      <!-- Advanced -->
+      <section id="advanced" class="container">
+        <div class="row">
+          <img data-aos="fade-right" src="img/features.svg" alt="features" />
+          <article data-aos="fade-left" class="column-text">
+            <h2>More advance</h2>
+            <div class="bullet">
+              <i class="fas fa-trophy fa-2x"></i>
+              <p class="bold-p">Achieve your goals</p>
+              <p>
+                Donec ultrices diam dictum dignissim vestibulum, proin eleifend
+                nunc.
+              </p>
+            </div>
+            <div class="bullet">
+              <i class="fas fa-star fa-2x"></i>
+              <p class="bold-p">Rated performance</p>
+              <p>
+                Donec ultrices diam dictum dignissim vestibulum, proin eleifend
+                nunc.
+              </p>
+            </div>
+            <div class="bullet">
+              <i class="fas fa-check fa-2x"></i>
+              <p class="bold-p">Plan your workouts</p>
+              <p>
+                Donec ultrices diam dictum dignissim vestibulum, proin eleifend
+                nunc.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="empty-space"></div>
+
+        <div class="row flex-reverse">
+          <img data-aos="fade-left" src="img/features2.svg" alt="features" />
+          <article data-aos="fade-right" class="column-text">
+            <h2>Higher performance</h2>
+            <div class="bullet">
+              <i class="fas fa-plus fa-2x"></i>
+              <p class="bold-p">Breathing techniques</p>
+              <p>
+                Donec ultrices diam dictum dignissim vestibulum, proin eleifend
+                nunc.
+              </p>
+            </div>
+            <div class="bullet">
+              <i class="fas fa-tachometer-alt fa-2x"></i>
+              <p class="bold-p">Increased speed</p>
+              <p>
+                Donec ultrices diam dictum dignissim vestibulum, proin eleifend
+                nunc.
+              </p>
+            </div>
+            <div class="bullet">
+              <i class="fas fa-running fa-2x"></i>
+              <p class="bold-p">Maintain stamina</p>
+              <p>
+                Donec ultrices diam dictum dignissim vestibulum, proin eleifend
+                nunc.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div class="empty-space"></div>
+
+      <!-------------- Dark bottom -------------->
+      <section class="dark-background">
+        <div class="empty-space"></div>
+
+        <!-- Testimonials -->
+        <section data-aos="fade-up" id="testimonials" class="container">
+          <article class="capital-heading text-center element-center">
+            <p class="sub-heading purple-heading">Testimonials</p>
+            <h2 class="light-text">What our users are saying</h2>
+          </article>
+
+          <div class="gallery light-text" data-flickity='{ "autoPlay": true }'>
+            <div class="gallery-cell">
+              <img src="img/person.svg" alt="" />
+              <p class="capital-p">
+                Proin ac quam et lectus vestibulum blandit. Nunc maximus nibh at
+                placerat tincidunt. Nam sem lacus, ornare non ante sed,
+              </p>
+            </div>
+
+            <div class="gallery-cell">
+              <img src="img/person.svg" alt="" />
+              <p class="capital-p">
+                Proin ac quam et lectus vestibulum blandit. Nunc maximus nibh at
+                placerat tincidunt. Nam sem lacus, ornare non ante sed,
+              </p>
+            </div>
+
+            <div class="gallery-cell">
+              <img src="img/person.svg" alt="" />
+              <p class="capital-p">
+                Proin ac quam et lectus vestibulum blandit. Nunc maximus nibh at
+                placerat tincidunt. Nam sem lacus, ornare non ante sed,
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Trial -->
+        <section id="trial" class="container">
+          <div class="row row-center-x">
+            <article
+              data-aos="fade-right"
+              class="capital-heading light-text text-left"
+            >
+              <p class="sub-heading purple-heading text-left">
+                Simple onbaording
+              </p>
+              <h2>14 days free trial</h2>
+              <p class="capital-p">
+                Donec ultrices diam dictum dignissim vestibulum. Proin eleifend
+                nunc nunc. Sed non arcu eget lorem viverra sodales.
+              </p>
+              <a href="" class="btn btn-secondary">Start free trial</a>
+            </article>
+            <img data-aos="fade-left" src="img/trial.svg" alt="" />
+          </div>
+        </section>
+
+        <div class="empty-space"></div>
+
+        <section data-aos="fade-up" id="dontmiss" class="container">
+          <article
+            class="capital-heading text-center element-center light-text"
+          >
+            <p class="sub-heading">Dont miss out</p>
+            <h2>Dont miss our weekly updates</h2>
+            <p class="capital-p">
+              Proin ac quam et lectus vestibulum blandit. Nunc maximus nibh at
+              placerat tincidunt, nam sem lacus, ornares.
+            </p>
+            <a href="#" class="btn btn-secondary-purple">Stay updated</a>
+          </article>
+        </section>
+
+        <div class="empty-space"></div>
+
+        <footer id="footer" class="container">
+          <div class="footer light-text">
+            <div class="brand">
+              <img src="img/logo-light.svg" alt="logo" />
+              <p>
+                Donec rhoncus quis elit sed fermentum. Nullam sit amet ex enim.
+              </p>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-twitter light-text"></i></a>
+                <a href="#"><i class="fab fa-instagram light-text"></i></a>
+                <a href="#"><i class="fab fa-facebook-f light-text"></i></a>
+              </div>
+            </div>
+
+            <div class="footer-nav">
+              <ul>
+                <li class="sub-heading"><a>Company</a></li>
+                <li><a>About us </a></li>
+                <li><a>Careers</a></li>
+                <li><a>Locations</a></li>
+                <li><a>Press</a></li>
+              </ul>
+
+              <ul>
+                <li class="sub-heading"><a>Menu</a></li>
+                <li><a>Features</a></li>
+                <li><a>Advanced</a></li>
+                <li><a>FAQ</a></li>
+                <li><a>Reviews</a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+
+        <!-------------- End of dark bottom -------------->
+      </section>
     </main>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

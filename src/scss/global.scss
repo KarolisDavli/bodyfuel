@@ -1,7 +1,6 @@
 // Fonts
 @import url("https://use.typekit.net/pwx7paj.css");
 
-
 // Root styles
 * {
   margin: 0;
@@ -15,14 +14,13 @@ ul li {
 
 a {
   text-decoration: none;
-  color: var(--black);
 }
 
 // Colors
 :root {
-  --black: #2C363F;
-  --green: #C5EFCB;
-  --purple: #B161F7;
+  --black: #2c363f;
+  --green: #c5efcb;
+  --purple: #b161f7;
 }
 
 // Typography
@@ -47,7 +45,7 @@ h2 {
 }
 
 p {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .sub-heading {
@@ -63,6 +61,15 @@ p {
   color: #fff;
 }
 
+// Text-alignment
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .purple-heading {
   color: var(--purple);
 }
@@ -73,6 +80,7 @@ p {
   font-size: 20px;
   font-weight: 700;
   border-radius: 18px;
+  transition: all 0.8s;
 }
 
 .btn-primary {
@@ -80,8 +88,14 @@ p {
   background-color: var(--green);
 }
 
-.btn-primary:hover {
-  opacity: .8;
+.btn-secondary {
+  color: #fff;
+  background-color: var(--purple);
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  opacity: 0.8;
 }
 
 .btn-secondary-green {
@@ -90,7 +104,14 @@ p {
   background-color: transparent;
   font-size: 1em;
   font-weight: 400;
-  transition: all .8s;
+}
+
+.btn-secondary-purple {
+  color: var(--purple);
+  border: 2px solid var(--purple);
+  background-color: transparent;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 .btn-secondary-green:hover {
@@ -98,10 +119,32 @@ p {
   background-color: var(--green);
 }
 
+.btn-secondary-purple:hover {
+  color: #fff;
+  background-color: var(--purple);
+}
+
 // Containers
 .container {
   max-width: 1170px;
-  margin: 0 auto 13rem;
-  padding: 0 1%;
+  margin: auto;
+  padding: 0 2%;
+}
 
+.empty-space {
+  height: 300px;
+}
+
+.element-center {
+  margin: auto;
+}
+
+// Images
+img {
+  height: 100%;
+  width: auto;
+}
+
+.dark-background {
+  background-color: var(--black);
 }

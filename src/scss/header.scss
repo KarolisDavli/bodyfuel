@@ -1,6 +1,11 @@
 header {
   height: 100vh;
+
+  a {
+    color: var(--black);
+  }
 }
+
 
 .nav-bar {
   display: flex;
@@ -24,7 +29,40 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 80%;
+
+  .hero-image {
+    height: 70%;
+    width: auto;
+    transform: translatey(0px);
+    animation: float 2s ease-in-out infinite;
+  }
+
+  .hero-image::after {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 2px 2px 20px;
+  }
 }
+
+// Image float
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-10px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
 
 .hero-article {
   max-width: 500px;
@@ -35,7 +73,6 @@ header {
 }
 
 // Extra
-
 .fa-leaf {
   animation: pulse 2s infinite;
   border-radius: 50%;
