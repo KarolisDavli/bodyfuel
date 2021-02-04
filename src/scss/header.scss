@@ -33,8 +33,17 @@ header {
   .hero-image {
     height: 70%;
     width: auto;
+    text-align: right;
+  }
+
+  .avocado {
     transform: translatey(0px);
     animation: float 2s ease-in-out infinite;
+  }
+
+  .shadow {
+    transform: scale(1);
+    animation: shadowSize 2s ease-in-out infinite;
   }
 
   .hero-image::after {
@@ -45,6 +54,7 @@ header {
     left: 0;
     width: 100%;
     box-shadow: 2px 2px 20px;
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, .4);
   }
 }
 
@@ -63,6 +73,20 @@ header {
   }
 }
 
+//Image size
+@keyframes shadowSize {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
 
 .hero-article {
   max-width: 500px;
